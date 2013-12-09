@@ -14,14 +14,14 @@
     <repository>
       <url>https://s3-us-west-2.amazonaws.com/acmx.mines.edu/release</url>
       <id>interface_sdk_library</id>
-    </repository>
-  </repositories>
-  <dependencies>
-    <dependency>
-      <artifactId>interfacesdk</artifactId>
-      <groupId>edu.mines.acmX.exhibit</groupId>
-      <version>0.1.1</version>
-    </dependency>
+		</repository>
+	</repositories>
+	<dependencies>
+		<dependency>
+			<groupId>edu.mines.acmX.exhibit</groupId>
+			<artifactId>interfacesdk</artifactId>
+			<version>[0.3.0,0.4.0)</version>
+		</dependency>
   </dependencies>
   <build>
     <plugins>
